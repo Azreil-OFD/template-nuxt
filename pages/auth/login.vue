@@ -37,12 +37,14 @@ function handleLogin() {
                         class="password-input bg-white text-black border-2 border-gray-400 rounded-xl pl-2.5 text-[35px] w-[45%]" 
                         placeholder="Пароль"
                     >
+                    <NuxtLink to="/">
+                        <button 
+                            class="enter-button bg-black text-white px-20 py-2 rounded-xl font-semibold" 
+                            @click="handleLogin">
+                            Вход
+                        </button>
+                    </NuxtLink>
                     
-                    <button 
-                        class="enter-button bg-black text-white px-20 py-2 rounded-xl font-semibold" 
-                        @click="handleLogin">
-                        Вход
-                    </button>
                 </div>
             </div>
         </div>

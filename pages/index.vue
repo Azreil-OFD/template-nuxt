@@ -8,6 +8,11 @@
                 About
             </button>
         </NuxtLink>
+        <NuxtLink to="/auth/login">
+            <button @click="click++" class="bg-blue-500 text-white py-2 p-2 rounded hover:bg-blue-600">
+                Войти
+            </button>
+        </NuxtLink>
         <Button @click="show" label="Contrast" severity="contrast" />
     </div>
 </template>
