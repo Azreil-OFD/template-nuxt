@@ -9,8 +9,13 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'h-sm': { raw: '(max-height: 585px)' },
+      },
+    },
   },
   plugins: [],
 }
+
 
